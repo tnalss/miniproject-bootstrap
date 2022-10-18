@@ -35,7 +35,7 @@
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="물품명을 입력하세요"
                     aria-label="Search">
-                <button class="btn border-0 my-2 my-sm-0 position-relative" style="left:-60px"
+                <button id="searchBtn" class="btn border-0 my-2 my-sm-0 position-relative" style="left:-60px"
                     type="submit">|&nbsp;&nbsp;<i class="bi bi-search"></i></button>
             </form>
         </div>
@@ -124,8 +124,9 @@
                         <div class="card-body">
                             <h4 class="card-text">스마트폰 촬영장치</p>
                                 <p>110,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -133,8 +134,8 @@
                         <div class="card-body">
                             <h4 class="card-text">심장박동 시뮬레이션</p>
                                 <p>88,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -142,8 +143,8 @@
                         <div class="card-body">
                             <h4 class="card-text">개구리알</p>
                                 <p>18,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -151,8 +152,8 @@
                         <div class="card-body">
                             <h4 class="card-text">개미사육상자</p>
                                 <p>39,600원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -160,8 +161,8 @@
                         <div class="card-body">
                             <h4 class="card-text">부레옥잠</p>
                                 <p>8,800원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -169,14 +170,14 @@
                         <div class="card-body">
                             <h4 class="card-text">안면인식 열화상카메라</p>
                                 <p>2,000,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <button type="button" class="btn btn-outline-dark">더보기</button>
+            <button type="button" id="seeMore1" class="btn btn-outline-dark">더보기</button>
         </article>
 
         <!-- 신규상품 아티클-->
@@ -190,8 +191,8 @@
                         <div class="card-body">
                             <h4 class="card-text">빛합성장치</p>
                                 <p>450,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -199,8 +200,8 @@
                         <div class="card-body">
                             <h4 class="card-text">하프미러</p>
                                 <p>49,500원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -208,8 +209,8 @@
                         <div class="card-body">
                             <h4 class="card-text">나리카 클리노미터</p>
                                 <p>18,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -217,8 +218,8 @@
                         <div class="card-body">
                             <h4 class="card-text">스마트 현미경</p>
                                 <p>285,900원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -226,8 +227,8 @@
                         <div class="card-body">
                             <h4 class="card-text">광원조절기</p>
                                 <p>8,800원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                     <div class="card my-3" style="width: 18rem;">
@@ -235,14 +236,14 @@
                         <div class="card-body">
                             <h4 class="card-text">가우스 가속기</p>
                                 <p>193,000원</p>
-                                <button type="button" class="btn btn-primary">장바구니</button>
-                                <button type="button" class="btn btn-secondary">바로구매</button>
+                                <button type="button" class="btn btn-primary liveToastBtn">장바구니</button>
+                                <button type="button" class="buy-now btn btn-secondary">바로구매</button>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <button type="button" class="btn btn-outline-dark">더보기</button>
+            <button type="button" id="seeMore2" class="btn btn-outline-dark">더보기</button>
         </article>
     </section>
     <aside>
@@ -279,6 +280,24 @@
         </address>
         <p>COPYRIGHT&copy; 2022 MarooScience ALL RIGHTS RESERVED.</p>
     </footer>
+
+
+    <div class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+          <div class="toast-header">
+            <img src="images/minicon.png" class="rounded mr-2" alt="로고">
+            <strong class="mr-auto">마루과학</strong>
+            
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">
+            장바구니에 담겼습니다.
+          </div>
+        </div>
+      </div>
+
 
     <!-- 부트스트랩 script -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
