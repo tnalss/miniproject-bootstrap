@@ -90,6 +90,11 @@ footer p:nth-of-type(1){
 .year-detail ul{
     list-style: square;
 }
+#map{
+	width:25rem;
+	height:20rem;
+	margin:0 auto;
+}
 
 @media screen and (max-width:576px) {
     html {
