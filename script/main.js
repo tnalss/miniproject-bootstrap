@@ -9,12 +9,9 @@ $(function () {
         alert("DB수업 이후 가능할 것 같습니다.");
     })
 
-    // $(".buy-now").click(function(){
-
-    // })
-
-    //$('.toast').toast(option);
-
+    $(".buy-now").click(function(){
+        alert("결제 시스템 오류! 점검중입니다!")
+    })
     $('.liveToastBtn').click(function(){
         $("#liveToast").toast('show');
 

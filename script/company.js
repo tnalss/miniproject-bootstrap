@@ -16,3 +16,10 @@ window.addEventListener("DOMContentLoaded", function () {
 	});
 	marker.setMap(map);
 })
+
+$(function () {
+    $("#searchBtn").click(function(){
+        alert("아직 이용하실 수 없는 기능입니다.");
+    })
+
+})
