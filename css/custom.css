@@ -5,7 +5,9 @@
     --customblue: rgb(52, 102, 237);
     --footergray: rgb(243,243,243);
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .only-pc a {
     color: inherit;
 }
@@ -34,7 +36,10 @@
     background-color: var(--footergray);
 }
 
-
+/*************working****************/
+.working{
+    padding-top: 5rem;
+}
 /*******index section*********/
 
 
@@ -133,7 +138,13 @@ footer p:nth-of-type(1){
 .policy p,.privacy-policy p{
     font-size:.7rem;
 }
-
+/********notice-contain************/
+.notice-contain a{
+    color:inherit;
+}
+.notice-contain{
+    margin-top:4rem;
+}
 
 /***************미디어 쿼리******************/
 @media screen and (max-width:576px) {
