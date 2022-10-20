@@ -106,6 +106,9 @@ footer p:nth-of-type(1){
     text-indent: 1rem;
 }
 
+.with-student img:hover{
+    transform: scale(1.1);
+}
 /*************join***********/
 
 .policy,
