@@ -124,6 +124,16 @@ footer p:nth-of-type(1){
 .form-signin{
     width:40rem;
 }
+.policy h3,.privacy-policy h3{
+    font-size:0.8rem;
+}
+.policy h2, .privacy-policy h2{
+    font-size:1rem;
+}
+.policy p,.privacy-policy p{
+    font-size:.7rem;
+}
+
 
 /***************미디어 쿼리******************/
 @media screen and (max-width:576px) {

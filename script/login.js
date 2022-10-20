@@ -1,14 +1,25 @@
 $(function () {
-    $("#searchBtn").click(function(){
+    $("#searchBtn").click(function () {
         alert("아직 이용하실 수 없는 기능입니다.");
     })
-    $('.loginBtn').click(function(e){
+    $('.loginBtn').click(function (e) {
         e.preventDefault();
-        alert("ID와 PW를 확인하세요");
+
+
+        let id = $("#id").val();
+        let pwd = $("#pwd").val();
+
+        if ((id == "admin") && (pwd == "admin")) {
+            alert("로그인 성공");
+        } else {
+            alert("ID와 PW를 확인하세요");
+        }
+
+
     })
 
-    $('.naverLoginBtn').click(function(e){
+    $('.naverLoginBtn').click(function (e) {
         e.preventDefault();
-        alert("정말 될거라 생각하시고 누르셨나요?");
+        alert("미구현 기능입니다.");
     })
 })

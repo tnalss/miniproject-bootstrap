@@ -3,13 +3,13 @@ $(document).ready(function(){
 
     $("#nextBtn").click(function(){    
         if($("#agree-policy").is(":checked") == false){
-            alert("모든 약관에 동의 하셔야 다음 단계로 진행 가능합니다.");
+            alert("모든 약관에 동의 하셔야 회원가입이 가능합니다.");
             return;
         }else if($("#agree-ipolicy").is(":checked") == false){
-            alert("모든 약관에 동의 하셔야 다음 단계로 진행 가능합니다..");
+            alert("모든 약관에 동의 하셔야 회원가입이 가능합니다..");
             return;
         }else{
-            alert("가입폼은 다음에..");
+            alert("가입 기능 구현중입니다.");
         }
     }); 
 
