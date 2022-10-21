@@ -149,7 +149,7 @@ footer p:nth-of-type(1){
 /***************미디어 쿼리******************/
 @media screen and (max-width:576px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
     footer{
         line-height: 1rem;
@@ -160,7 +160,16 @@ footer p:nth-of-type(1){
 @media screen and (max-width:780px) {
     .search-produc{
         display: none;
+        
     }
+    .onlypc{
+        display: none;
+    }
+    #gnb{
+        font-size:.8rem;
+        column-gap: .3rem;
+    }
+
 }
 @media screen and (max-width:1600px){
     .no-phone{
