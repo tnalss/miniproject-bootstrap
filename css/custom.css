@@ -145,6 +145,7 @@ footer p:nth-of-type(1){
     margin-top:4rem;
 }
 
+
 /***************미디어 쿼리******************/
 @media screen and (max-width:576px) {
     html {
@@ -156,7 +157,7 @@ footer p:nth-of-type(1){
 
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:1000px) {
     .search-produc{
         display: none;
         
