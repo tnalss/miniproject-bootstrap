@@ -126,9 +126,7 @@ footer p:nth-of-type(1){
 
 
 /******login******/
-.form-signin{
-    width:40rem;
-}
+
 .policy h3,.privacy-policy h3{
     font-size:0.8rem;
 }
@@ -149,7 +147,7 @@ footer p:nth-of-type(1){
 /***************미디어 쿼리******************/
 @media screen and (max-width:576px) {
     html {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     footer{
         line-height: 1rem;
@@ -173,9 +171,7 @@ footer p:nth-of-type(1){
 
         flex-wrap: none;
     }
-    .form-signin{
-        width:20rem;
-    }
+
     .logocon{
         justify-content: center  !important;
     }
