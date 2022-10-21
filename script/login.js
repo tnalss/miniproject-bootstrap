@@ -11,6 +11,7 @@ $(function () {
 
         if ((id == "admin") && (pwd == "admin")) {
             alert("로그인 성공");
+            move_page();
         } else {
             alert("ID와 PW를 확인하세요");
         }
@@ -22,4 +23,8 @@ $(function () {
         e.preventDefault();
         alert("미구현 기능입니다.");
     })
+
+    function move_page(){
+        location.href="index.html"
+        }
 })
