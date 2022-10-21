@@ -167,7 +167,17 @@ footer p:nth-of-type(1){
     }
     #gnb{
         font-size:.8rem;
-        column-gap: .3rem;
+       
+    }
+    #gnb ul{
+
+        flex-wrap: none;
+    }
+    .form-signin{
+        width:20rem;
+    }
+    .logocon{
+        justify-content: center  !important;
     }
 
 }
