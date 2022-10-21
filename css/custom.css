@@ -157,6 +157,11 @@ footer p:nth-of-type(1){
 
 }
 
+@media screen and (max-width:780px) {
+    .search-produc{
+        display: none;
+    }
+}
 @media screen and (max-width:1600px){
     .no-phone{
         display: none;
