@@ -179,6 +179,9 @@ footer p:nth-of-type(1){
     .logocon{
         justify-content: center  !important;
     }
+    .favorite-products,.new-products{
+        justify-content: center !important;
+    }
 
 }
 @media screen and (max-width:1600px){
