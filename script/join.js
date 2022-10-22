@@ -38,7 +38,19 @@ $(document).ready(function(){
     //     location.href="join2.html"
     //     }
 
+    $("#inputInvalid").keyup(function(){
+        let pwd1= $("#passwords").val();
+        let pwd2= $("#inputInvalid").val();
 
+        if(pwd1 != "" || pwd2 != ""){
+            if(pwd1 == pwd2){
+                $("#inputInvalid").removeClass('is-invalid');
+                $("#inputInvalid").addClass('is-valid')
+            }else{
+                
+            }    
+        }
+    })
 
 
 });
