@@ -47,7 +47,24 @@ $(document).ready(function(){
                 $("#inputInvalid").removeClass('is-invalid');
                 $("#inputInvalid").addClass('is-valid')
             }else{
-                
+                $("#inputInvalid").addClass('is-invalid');
+                $("#inputInvalid").removeClass('is-valid')
+            }    
+        }
+    })
+
+
+    $("#passwords").keyup(function(){
+        let pwd1= $("#passwords").val();
+        let pwd2= $("#inputInvalid").val();
+
+        if(pwd1 != "" || pwd2 != ""){
+            if(pwd1 == pwd2){
+                $("#inputInvalid").removeClass('is-invalid');
+                $("#inputInvalid").addClass('is-valid')
+            }else{
+                $("#inputInvalid").addClass('is-invalid');
+                $("#inputInvalid").removeClass('is-valid')
             }    
         }
     })
