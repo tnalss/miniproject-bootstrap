@@ -16,6 +16,15 @@ $(function () {
         $("#liveToast").toast('show');
 
     })
+
+    $('.card-img-top').mouseover(function(){
+        $(this).attr("src", $(this).attr("src").replace("1","2"));
+
+    })
+    $('.card-img-top').mouseout(function(){
+        $(this).attr("src", $(this).attr("src").replace("2","1"));
+    })
+
 })
 
 

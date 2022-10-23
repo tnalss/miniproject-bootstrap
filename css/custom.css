@@ -16,7 +16,10 @@ html{
     color: rgb(213, 87, 255);
     text-decoration: none;
 }
+.pos-relative{
+    position:relative;
 
+}
 /* 
 .header_top{
     position: sticky;
@@ -42,7 +45,9 @@ html{
     padding-top: 5rem;
 }
 /*******index section*********/
-
+.card{
+    width: 18rem;
+}
 
 .favorite-products h4,.new-products h4 {
     font-size: 1.2rem;
